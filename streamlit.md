@@ -47,3 +47,21 @@ if st.button("表示"):
 ![出力結果](./images/button_pushed.png) 
 *ボタン入力後*
 
+#### st.image()
+画像を表示します。 利用するにはPIL等の画像読み込み系ライブラリが必要です。
+
+```
+import streamlit as st
+from PIL import Image
+
+st.title("Streamlit入門")
+
+image = Image.open("画像パス")
+
+st.image(image, caption='ここにキャプションを入力', width=500)
+```
+
+![出力結果](./images/st_image.png)
+
+
+
