@@ -12,11 +12,10 @@
 ローカル環境を汚さないためにも仮想環境は重要です。
 
 #### 仮想環境の種類について
-1. Anaconda
-2. miniconda
-3. venv
-4. pyenv
-5. pipenv
-6. Docker
+1. conda
+2. venv
+3. pyenv
+4. pipenv
+5. Docker
 
 [目次に戻る](./index.md)
