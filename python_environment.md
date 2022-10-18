@@ -5,11 +5,11 @@ Pythonの環境構築については迷ったら、[こちらの環境構築ガ�
 
 ### 各OSにおけるPythonのインストール方法
 1. Windows環境におけるpythonのインストール方法
-   [https://www.python.jp/install/windows/install.html]
+   （https://www.python.jp/install/windows/install.html)
 2. Ubuntu環境におけるPythonのインストール方法
-   [https://www.python.jp/install/ubuntu/index.html]
+   (https://www.python.jp/install/ubuntu/index.html)
 3. MacにおけるPythonのインストール方法
-   [https://www.python.jp/install/macos/install_python.html]
+   (https://www.python.jp/install/macos/install_python.html)
 
 ### その他のPythonのインストール方法
 1. Anaconda(miniconda)を利用したPython環境の構築方法
@@ -42,6 +42,6 @@ Pythonの環境構築については迷ったら、[こちらの環境構築ガ�
 個人的にはWindows環境では、まずvenvを使用します。Mac環境では、初期のM1チップでconda-forgeを使わざるを得ない状況であったため、その名残でminicondaを使用しています。Dockerは、OSによらない環境構築ができる点がメリットです。ただし、Docker自体のインストールがOSに依存することと、非常に重いことには注意しましょう。
 
 #### 参考
-仮想環境に関する説明 : [https://www.python.jp/install/windows/venv.html]
+仮想環境に関する説明 : (https://www.python.jp/install/windows/venv.html)
 
 [目次に戻る](./index.md)
