@@ -1,4 +1,4 @@
-## Pythonの環境方法について
+<h2> Pythonの環境方法について </h2>
 PythonはOSによってインストール方法が異なります。
 また、それぞれで通常の構築方法に加えAnaconda(Miniconda)を利用した環境構築方法、Dockerを利用した環境構築方法があります。
 Pythonの環境構築については迷ったら、[こちらの環境構築ガイド](https://www.python.jp/install/install.html)を閲覧すると良いでしょう。

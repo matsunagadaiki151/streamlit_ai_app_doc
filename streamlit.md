@@ -1,4 +1,4 @@
-## Streamlitで遊ぼう
+<h2> Streamlitで遊ぼう </h2>
 
 ### 公式ドキュメントを読む
 Streamlitの基本機能は全て、[公式のAPIリファレンス](https://docs.streamlit.io/library/api-reference)に記載されています。
