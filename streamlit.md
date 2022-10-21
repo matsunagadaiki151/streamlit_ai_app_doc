@@ -1,3 +1,9 @@
+---
+title: "Streamlitで遊ぼう"
+date: "2022-10-06"
+lastmod: "2022-10-21"
+---
+
 ## Streamlitで遊ぼう 
 
 ### 公式ドキュメントを読む
