@@ -4,6 +4,14 @@ date: "2022-10-06"
 lastmod: "2022-10-21"
 ---
 
+{% if page.lastmod %}
+  {% assign lastmod = page.lastmod %}
+{% else %}
+  {% assign lastmod = page.date %}
+{% endif %}
+
+<span class="date">最終更新日:{{ lastmod }}</span>
+
 ## Streamlitで遊ぼう 
 
 ### 公式ドキュメントを読む

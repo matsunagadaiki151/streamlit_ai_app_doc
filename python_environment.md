@@ -3,6 +3,14 @@ title: "Pythonの環境構築について"
 date: "2022-10-06"
 lastmod: "2022-10-21"
 ---
+
+{% if page.lastmod %}
+  {% assign lastmod = page.lastmod %}
+{% else %}
+  {% assign lastmod = page.date %}
+{% endif %}
+
+<span class="date">最終更新日:{{ lastmod }}</span>
 ##  Pythonの環境方法について
 PythonはOSによってインストール方法が異なります。
 また、それぞれで通常の構築方法に加えAnaconda(Miniconda)を利用した環境構築方法、Dockerを利用した環境構築方法があります。
