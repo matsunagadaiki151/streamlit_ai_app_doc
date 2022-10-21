@@ -80,6 +80,7 @@ Google Cloudの「予算とアラート」機能を使い、利用料金の合�
 
     ![10](images/gcp_cost_monitoring10.png)
 
+[目次に戻る](./index.md)
 
 
 
