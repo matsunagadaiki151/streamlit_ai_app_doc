@@ -10,7 +10,7 @@ lastmod: "2022-10-21"
   {% assign lastmod = page.date %}
 {% endif %}
 
-<span class="date">{{ lastmod }}</span>
+<span class="date">最終更新日:{{ lastmod }}</span>
 
 ## Google Cloudのコスト監視について
 
