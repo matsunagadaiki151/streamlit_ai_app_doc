@@ -5,3 +5,8 @@ titles_from_headings:
   enabled:     true
   strip_title: true
   collections: false
+header_pages:
+  - python_environment.md
+  - streamlit.md
+  - gcp_cost_monitoring.md
+
