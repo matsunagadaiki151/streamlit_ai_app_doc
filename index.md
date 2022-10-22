@@ -2,7 +2,6 @@
 title: "トップページ"
 date: "2022-10-06"
 lastmod: "2022-10-21"
-order: 1
 ---
 
 {% if page.lastmod %}
