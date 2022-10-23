@@ -91,6 +91,4 @@ if image_file is not None:
 
 ![出力結果](./images/st_upload_file.png)
 
-
-
 [目次に戻る](./index.md)
