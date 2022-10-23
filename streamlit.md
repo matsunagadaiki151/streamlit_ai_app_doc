@@ -12,7 +12,6 @@ lastmod: "2022-10-21"
 
 <span class="date">最終更新日:{{ lastmod }}</span>
 
-## Streamlitで遊ぼう 
 
 ### 公式ドキュメントを読む
 Streamlitの基本機能は全て、[公式のAPIリファレンス](https://docs.streamlit.io/library/api-reference)に記載されています。

@@ -12,7 +12,6 @@ lastmod: "2022-10-23"
 
 <span class="date">最終更新日:{{ lastmod }}</span>
 
-## Cloud Vision APIのセットアップ手順
 ここではPythonからVision APIを呼び出す手順を解説していきます。
 
 ### 必要なもの
