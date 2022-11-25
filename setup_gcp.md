@@ -1,7 +1,7 @@
 ---
 title: "Cloud Vision APIのセットアップ手順"
 date: "2022-10-23"
-lastmod: "2022-10-23"
+lastmod: "2022-11-25"
 ---
 
 {% if page.lastmod %}
@@ -38,8 +38,21 @@ lastmod: "2022-10-23"
 2. (推奨)[Google Cloudの料金アラート設定について](./gcp_cost_monitoring.md)より特定の請求金額に達した場合、Eメールに通知されるような設定を行う。
 
 3.  `src`フォルダに`visionapi_test.py`を作成し、ファイル内に「ラベル検出」の項目に掲載されている、Pythonスクリプトを貼り付ける。
+   
+   <font color="Red">**11月25日追記**</font>  
+   現在、wakeupcat.jpgをダウンロードできないようです。
+   そのため、この例では[いらすとやの画像](https://4.bp.blogspot.com/-gX99oMun4bM/U9y_wYoE0EI/AAAAAAAAjiU/DHdcIfImCwQ/s800/pose_ganbarou_man.png)で代用します。
 
-4. Dockerfileを以下のように書き換える。
+   これに伴い、ソースコードの以下の箇所を修正してください。
+   ```
+   file_name = os.path.abspath('resources/wakeupcat.jpg')
+   file_name = os.path.abspath('resources/pose_ganbarou_man.png')
+   ```
+
+4. Dockerfileを以下のように書き換える。  
+   
+   <font color="Red">**11月25日追記**</font>  
+   上記修正に伴い、こちらも修正します。
    
    ```
    FROM python:3.8
@@ -52,7 +65,11 @@ lastmod: "2022-10-23"
       pip install --upgrade google-cloud-vision
    RUN mkdir /tmp/keys/ && \
       touch /tmp/keys/key.json
-   RUN mkdir resources/ && wget https://raw.githubusercontent.com/googleapis/python-vision/master/samples/snippets/quickstart/resources/wakeupcat.jpg -P /opt/app/resources/
+
+   # RUN mkdir resources/ && wget https://raw.githubusercontent.com/googleapis/python-vision/master/samples/snippets/quickstart/resources/wakeupcat.jpg -P /opt/app/resources
+
+   # 以下に修正
+   RUN mkdir resources/ && wget https://4.bp.blogspot.com/-gX99oMun4bM/U9y_wYoE0EI/AAAAAAAAjiU/DHdcIfImCwQ/s800/pose_ganbarou_man.png -P /opt/app/resources/
 
    ENV GOOGLE_APPLICATION_CREDENTIALS /tmp/keys/key.json
 
