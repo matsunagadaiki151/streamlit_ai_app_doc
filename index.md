@@ -17,3 +17,5 @@ lastmod: "2022-10-21"
 2. [Streamlitで遊ぼう](./streamlit.md)
 3. [Cloud Vision APIのセットアップ手順](./setup_gcp.md)
 4. [Google Cloudの料金アラート設定について](./gcp_cost_monitoring.md)
+5. [(WIP)文字認識アプリの作成](./ocr_app.md)
+6. [後片付け](./clean_up.md)
