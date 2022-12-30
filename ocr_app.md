@@ -1,5 +1,5 @@
 ---
-title: "(WIP)Streamlitで文字検出アプリを作る"
+title: "Streamlitで文字検出アプリを作る"
 date: "2022-12-25"
 lastmod: "2022-12-25"
 ---
