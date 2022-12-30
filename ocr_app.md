@@ -21,7 +21,7 @@ Vision AIをとstreamlitを組み合わせて、簡単な文字認識アプリ�
 ![3](images/ocr_app1.png)
 
 ### 手順
-1. Dockerfileの設定
+#### **Dockerfileの設定**
 コンテナ起動時にstreamlitが起動し、ローカルホストからアプリを実行できるようにします。具体的には、以下のように編集しなおします。
 
 ```
@@ -52,7 +52,7 @@ ENTRYPOINT [ "streamlit", "run"]
 CMD [ "src/app.py" ]
 ```
 
-2. ソースコードの作成
+#### **ソースコードの作成**
 `app.py`の中身を以下のように変更します。
 
 ```
@@ -84,7 +84,7 @@ if image_file is not None:
         st.write(text.description)
 ```
 
-3. Dockerコンテナの起動
+#### **Dockerコンテナの起動**
 まず、`docker image build -t streamlit_study_img .`でDockerをビルドした後、以下のコマンドで、コンテナを起動します。
 
 ```
